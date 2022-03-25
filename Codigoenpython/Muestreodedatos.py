@@ -10,7 +10,7 @@ else:
  print("Ahora elija hasta la fila que quiera visualizar")
 
 
-for p in range(50):
+for p in range(57):
   p=int(input())
   print(df.iloc[0:p])
   break
